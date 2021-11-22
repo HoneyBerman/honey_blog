@@ -105,7 +105,7 @@ useEffect(() => {
           Post Comment
         </button>
         {showSuccessMessage && (
-          <span className="text-xl float-right font-semibold mt-3 text-green-500 sm:text-sm">
+          <span className="float-right font-semibold mt-3 text-green-500 text-xs md:text-xl">
             Comment submitted for review
           </span>
         )}
